@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200&family=Open+Sans:wght@300&display=swap'); /*FUENTE USADA SACADA DE GOOGLE FONTS*/
+:root { /*PARA EL USO DE LOS COLORES A PARTIR DE: (VAR)*/
+    --primercolor: #e46f0a;
+    --segundocolor: #9e3f00;
+    --tercercolor: #F5DEB3;
+    --cuartocolor: #ffffff;
+    --quintocolor: #333333;
+    --sextocolor:background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);     /*Lo saque de https://cssgradient.io/gradient-backgrounds/*/
+    /**/
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    font-family: 'Inter', sans-serif; /*FUENTE DEL CODIGO*/
+}
+.encabezado { 
+    display: flex;
+    justify-content: space-between; /*DISTRIBUYE EL ESPACIO ENTRE Y AL REDEDOR DE LOS ITEMS FLEX*/
+    background-color: var(--primercolor); /*USO DE VAR*/
+    align-items: center;
+    padding: 5px;
+    position: fixed; /*PARA QUE SI HAY QUE HACER UN SCROLL NO DESAPAREZCA EL ENCABEZADO*/
+    width: 100%; /*PARA QUE OCUPE TODO EL ANCHO*/
+    top: 0; /*PARA QUE QUEDE FIJO ARRIBA*/
+}
+
+
+.head img {
+    height: 50px;   
+    padding: 0 40px;
+}
+main{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    margin-top: 5%;
+}
+
+
+
+.CSSNOTAS { 
+
+text-align: center;
+
+}
+
+
+
+
+
+
+
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000000;
+    background-color: var(--primercolor);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(255, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+    
+    .boton:hover {
+    background-color: #ff9900;
+    box-shadow: var(--primercolor);
+    color: #fff;
+    transform: translateY(-7px);
+      }
+    
+      .botonEliminar {
+        margin-left: 50px;
+        color: white;
+        font-size: 8px;
+        background-color: red;
+        border-radius: 45px;
+      }
+     
+      .botonEliminar:hover {
+        background-color: #ff0000;
+        box-shadow: 0px 15px 20px rgba(255, 0, 0, 0.4); 
+        color: #fff;
+        transform: translateY(-3px);
+          }
+    
+      button:active {
+        transform: translateY(-1px);
+          }
+
+
+          .comentario 
+          {
+              background-color: #f2f2f2;
+              padding: 10px;
+              margin-bottom: 10px;
+          }
+
+
+       
+
+                button.boton {
+                    border-radius: 45px;
+                  }
+                  
+                  .buttonEliminar {
+                    border-radius: 8px;
+                  }
+                  
+
+
+                  .comentario {
+                    width: 250px;
+                    width: fit-content; /* Ajusta el ancho del contenedor según su contenido */
+
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: white;
+                    border-radius: 5px;
+                    padding: 15px;
+                    margin-bottom: 10px;
+                    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+                    margin-left: auto;
+                    margin-right: auto;
+                  }
+
+
+
+ .Imagendardo {
+  width: 25%;
+  height: 25%;
+  transition: transform 0.3s ease;
+  }
+  .Imagendardo:hover {
+    transform: scale(1.2);
+
+  }
+
+  .h1header {
+
+text-align: center;
+font-size: 10px;
+
+  }
